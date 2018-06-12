@@ -1,0 +1,15 @@
+{
+    "Numbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "Shapes":[
+        "circle",
+        "triangle",
+        "square",
+        "rectangle"
+    ]
+}

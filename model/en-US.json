@@ -1,0 +1,74 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "brainy memory",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "BrainyMemoryIntent",
+                    "slots": [
+                        {
+                            "name": "things",
+                            "type": "thingsType"
+                        }
+                    ],
+                    "samples": [
+                        "Memory game",
+                        "I want to learn about {things}",
+                        "I want a better memory",
+                        "I want to get better at remembering things",
+                        "I want to learn critical thinking",
+                        "Better my memory"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "thingsType",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "vehicles"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "shapes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "letters"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "numbers"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "animals"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
